@@ -13,7 +13,7 @@ def extract_place_id(url):
 
 
 def fetch_reviews(place_id):
-    url = "https://www.google.com/maps/preview/review/listentitiesreviews"
+    url = "https://www.google.com/maps/preview/review/listentitiesreview"
 
     params = {
         "pb": f"!1m2!1s{place_id}!2s0!3m1!2i20!4e0"
